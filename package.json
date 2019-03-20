@@ -18,12 +18,14 @@
   "author": "Ryan White, Josh Vance, Brian Curran, Neftali Valdez calderon",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.5",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "jwt-simple": "^0.5.5",
     "mongodb": "^3.1.13",
     "mongoose": "^5.4.19",
+    "mongoose-unique-validator": "^2.0.2",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0"
   }
